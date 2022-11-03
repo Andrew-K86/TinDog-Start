@@ -7,6 +7,7 @@ body {
 #title {
     background-color: #ff4c68;
     color: #fff;
+    
 }
 
 
@@ -61,13 +62,18 @@ h1 {
 .title-img {
     width: 60%;
     transform: rotate(25deg);
+    position:absolute;
 }
 
 /* Features */
 
 #features {
-    padding-top: 4.5rem;
+    padding: 4.5rem 0;
     font-family: "montserrat";
+    background-color: #fff;
+    position: relative;
+    
+
    
 }
 h3 {
