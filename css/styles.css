@@ -59,10 +59,15 @@ h1 {
 }
 /* Title image */
 
-.title-img {
+.dog-image {
+position: relative;
+}
+
+.title-image {
     width: 60%;
     transform: rotate(25deg);
     position:absolute;
+    right: 25%;
 }
 
 /* Features */
@@ -145,4 +150,15 @@ svg {
   }
   .pricing-column {
     padding: 3% 2%;
+  }
+
+  @media (max-width: 1028px) {
+
+    #title {
+      text-align: center;
+    }
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
   }
